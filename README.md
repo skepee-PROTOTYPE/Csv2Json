@@ -5,8 +5,9 @@ The input file must be provided with a header line in order to create the name a
 A particular case is if the the header name starts with "list_". If the corresponding value is a semicolon separated values, it generates the nested object.
 
 ```
-List<string> news = new List<string>();
-List<dynamic> l = new List<dynamic>();
+string headline; 
+List<string> news = new List<string>(); 
+List<dynamic> l = new List<dynamic>(); 
 
 var head = headline.Split(',');
 foreach (var elem in news)
